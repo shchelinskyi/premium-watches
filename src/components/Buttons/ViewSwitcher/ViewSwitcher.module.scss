@@ -1,0 +1,25 @@
+.switcherWrapper {
+  display: flex;
+  column-gap: 15px;
+
+  @media (min-width: 769px)  {
+    column-gap: 20px;
+  }
+}
+
+.btn {
+  padding: 5px 10px;
+  width: 70px;
+  background-color: #bdc9cf;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  text-align: center;
+
+  &.active {
+    background-color: #7897a8;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+}

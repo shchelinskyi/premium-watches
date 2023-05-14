@@ -1,0 +1,23 @@
+.selectedWrapper {
+  position: relative;
+  padding: 0 5px;
+  height: 45px;
+  border: 1px solid white;
+  background-color: #02094e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  cursor: pointer;
+}
+
+.selectedImg {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.selectedProducts {
+  font-size: 20px;
+  color: #ffffff;
+}

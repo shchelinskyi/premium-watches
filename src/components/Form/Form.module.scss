@@ -1,0 +1,123 @@
+.formWrapper {
+  position: relative;
+  width: 300px;
+  min-height: 500px;
+  background-color: #bdc9cf;
+  padding: 20px;
+
+  @media (min-width: 1025px)  {
+    width: 500px;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.formTitle {
+  color: #02094e;
+  margin-bottom: 10px;
+}
+
+.formLabel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 20px;
+  color: #21282d;
+
+  @media (min-width: 1025px)  {
+    flex-direction: row;
+  }
+}
+
+.inputForm {
+  width: 230px;
+  height: 30px ;
+  padding: 5px;
+  font-size: 14px;
+
+
+  @media (min-width: 1025px)  {
+    width: 280px;
+  }
+}
+
+.inputFormTel {
+  width: 230px;
+  height: 30px ;
+  padding: 5px;
+  font-size: 14px;
+  color: gray;
+
+  &:focus {
+    color: black;
+  }
+
+
+  @media (min-width: 1025px)  {
+    width: 280px;
+  }
+}
+
+
+
+
+.btnForm {
+  width: 200px;
+  padding: 10px 5px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  column-gap: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: teal;
+  font-size: 14px;
+  color: #ffffff;
+  align-self: center;
+  cursor: pointer;
+  transition: all 0.25s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.error {
+  width: 220px;
+  color: firebrick;
+  font-size: 14px;
+}
+
+.cartImgBtn {
+  width: 14px;
+  height: 14px;
+  object-fit: cover;
+}
+
+.btnClose {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background-color: transparent;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s;
+
+  &:hover {
+    transform: scale(1.1);
+    color: firebrick;
+  }
+}
+
+.mainForm {
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  background-color: #f2f6f8;
+}

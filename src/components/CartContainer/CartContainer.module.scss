@@ -1,0 +1,40 @@
+.cart {
+  border: 1px solid white;
+  position: relative;
+  height: 45px;
+  padding: 15px 10px 15px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 35px;
+  background-color: rgb(2, 9, 78);
+  cursor: pointer;
+  min-width: 70px;
+}
+
+.cartImg {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.cartProducts {
+  display: none;
+
+  @media (min-width: 769px)  {
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+  }
+}
+
+.productNumber {
+  position: absolute;
+  left: 33px;
+  top:2px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  color: #02094e;
+  background-color: white;
+  font-weight: bold;
+}

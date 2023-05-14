@@ -1,0 +1,89 @@
+.footer {
+  width: 100%;
+  margin-top: 30px;
+  background-color: #02094e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerWrapper {
+  padding: 10px;
+  max-width: 1200px;
+  min-width: 300px;
+  min-height: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  column-gap: 30px;
+}
+
+.contactBlock {
+  height: 40px;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.phoneIcon {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
+
+.telLink {
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+
+  &:hover {
+    color: gold;
+  }
+}
+
+.addressIcon {
+  width: 30px;
+  height: 30px;
+  fill: #ffffff;
+}
+
+.contactText{
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    color: gold;
+  }
+}
+
+.socialIcons {
+  display: flex;
+  column-gap: 15px;
+}
+
+.iconLink {
+  cursor: pointer;
+}
+
+.contactIcon {
+  width: 40px;
+  height: 40px;
+  fill: #ffffff;
+
+  &:hover {
+    fill: gold;
+  }
+}
+
+.rights {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: #ffffff;
+  font-size: 16px;
+}
+

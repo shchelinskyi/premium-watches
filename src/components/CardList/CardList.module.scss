@@ -1,0 +1,133 @@
+.cardListWrapper{
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin:20px 0;
+  font-size: 28px;
+  color: #232020;
+  text-align: center;
+  text-transform: uppercase;
+  min-width: 320px;
+
+  @media (min-width: 481px)  {
+    font-size: 32px;
+  }
+
+  @media (min-width: 769px)  {
+    font-size: 34px;
+  }
+}
+
+.cardListContainer {
+  width: 100%;
+  padding: 0 30px 20px 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  column-gap: 30px;
+}
+
+.productTableContainer {
+  width: 100%;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner {
+  min-width: 320px;
+  min-height: 110px;
+  width: 100vw;
+  height: 35vw;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background-color: #281e16;
+
+  @media (min-width: 481px)  {
+    margin-top: 0;
+    height: 200px;
+  }
+
+  @media (min-width: 769px)  {
+    height: 220px;
+  }
+
+  @media (min-width: 1201px)  {
+    height: 240px;
+  }
+
+  @media (min-width: 1501px)  {
+    height: 300px;
+  }
+}
+
+.switch {
+  align-self: flex-end;
+  margin-right: 100px;
+  margin-bottom: 30px;
+  width: 100px;
+  display: flex;
+  column-gap: 15px;
+}
+
+.btn {
+  padding: 5px 10px;
+  background-color: #bdc9cf;
+  border: 2px solid #02094e;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.switcher {
+  display: flex;
+  column-gap: 15px;
+  align-self: center;
+  margin-bottom: 30px;
+
+  @media (min-width: 769px)  {
+    align-self: flex-end;
+    margin-right: 70px;
+    column-gap: 20px;
+  }
+}
+
+.sortBlock {
+  align-self: center;
+  width: 130px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  background-color: #d5d5c2;
+
+  @media (min-width: 769px)  {
+    width: 160px;
+    column-gap: 10px;
+  }
+}
+
+.sortLabel {
+  font-size: 14px;
+  @media (min-width: 769px)  {
+    font-size: 16px;
+  }
+}
+
+.sortSelect {
+  padding: 2px;
+  font-size: 13px;
+  font-family: Roboto, sans-serif;
+  color: #02094e;
+  @media (min-width: 769px)  {
+    font-size: 16px;
+  }
+}
+
