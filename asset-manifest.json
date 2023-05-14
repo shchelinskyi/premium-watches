@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/premium-watches/static/css/main.fe5b7225.css",
+    "main.js": "/premium-watches/static/js/main.ce48e733.js",
+    "index.html": "/premium-watches/index.html",
+    "main.fe5b7225.css.map": "/premium-watches/static/css/main.fe5b7225.css.map",
+    "main.ce48e733.js.map": "/premium-watches/static/js/main.ce48e733.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe5b7225.css",
+    "static/js/main.ce48e733.js"
+  ]
+}
