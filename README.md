@@ -37,4 +37,4 @@ Once you have the Premium Watches React App running, you can:
 
 ### Page link
 
-https://shchelinskyi.github.io/premium-watches
+https://shchelinskyi.github.io/watches
