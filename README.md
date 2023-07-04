@@ -20,8 +20,9 @@ To get started with the Premium Watches React App, follow the steps below:
 1. Clone the repository to your local machine.
 2. Navigate to the root directory of the project in your terminal.
 3. Run npm install to install all dependencies.
-4. Run `npm start` to start the development server.
-5. Open your browser and navigate to http://localhost:3000/.
+4. Change in `package.json`  "homepage": " ".
+5. Run `npm start` to start the development server.
+6. Open your browser and navigate to http://localhost:3000/.
 
 ### Usage
 
